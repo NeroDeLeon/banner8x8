@@ -2,11 +2,11 @@
 /*   Banner by nero v 1.0 26.04.99   */
 /*   Font 8x8                        */
 /*************************************/
-
+//includes
 #include <string.h>
 #include <stdio.h>
 #include <stdarg.h>
-
+//defines
 #define fweite          8  /* Fontweite */
 #define fhoehe          8  /* Fonthoehe */
 #define anzchar        96  /* von dezimal 32 bis 126 alles Andere wird 95 */

@@ -5,3 +5,7 @@ and writes a file with the same caption.
 ## Projekt Bildschimausgabe
 Programm zur Veranschaulichung eines Stapelablaufs 
 an der Konsole.
+
+### Version
+
+1.0 first run 1999
