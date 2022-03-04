@@ -25,7 +25,8 @@ int main (int argc,char *argv[]) {
   (argv [1]) = arg;
   argc = 2;
   char string[100];
-  unsigned char (mchar[anzchar][fhoehe]) = 
+//mapping tabelle für die Ausgabeposition
+  unsigned char (mchar[anzchar][fhoehe]) =
 {
  /*   */   0,  0,  0,  0,  0,  0,  0,  0,
  /* ! */  48,120,120, 48, 48,  0, 48,  0,
@@ -170,7 +171,7 @@ void myWrite(char *format, ...)
 	{
 	  mwfile=fopen("b8out.txt", "ab");
 	}
-	
+
 	va_start(argptr, format);
 	vfprintf(mwfile, format, argptr);
 	fflush(mwfile);
