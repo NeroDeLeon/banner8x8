@@ -166,12 +166,10 @@ int p;
 void myWrite(char *format, ...)
 {
 	va_list argptr;
-
 	if(mwfile==NULL)
 	{
 	  mwfile=fopen("b8out.txt", "ab");
 	}
-
 	va_start(argptr, format);
 	vfprintf(mwfile, format, argptr);
 	fflush(mwfile);
