@@ -14,9 +14,11 @@
 
 static FILE *mwfile = NULL;
 
+//Function Declarations
 int power(int base, int n);
 void myWrite(char *format, ...);
 
+//Main
 int main (int argc,char *argv[]) {
   int i,j,k,l;
   char *arg = "DEINTEXT";

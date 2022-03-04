@@ -6,6 +6,7 @@ and writes a file with the same caption.
 Programm zur Veranschaulichung eines Stapelablaufs 
 an der Konsole.
 
-### Version
+## Version
 
-1.0 first run 1999
+1.0.0 first run 26.04.1999
+1.0.1 Added Comments 04.03.2022
